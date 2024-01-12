@@ -3,18 +3,27 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev && npx open-cli http://localhost:3000",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@bentogrid/core": "^1.1.1",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "next": "^14.0.4",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.4"
+    "react-slick": "^0.29.0",
+    "react-spring": "^9.7.3",
+    "slick-carousel": "^1.8.1",
+    "three": "^0.160.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
+    "open-cli": "^8.0.0",
     "postcss": "^8",
     "tailwindcss": "^3.3.0"
   }
